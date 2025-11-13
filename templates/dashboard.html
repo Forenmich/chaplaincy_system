@@ -1,0 +1,8 @@
+<h2>Welcome, {{ current_user.username }}!</h2>
+<p><strong>Verse of the Day:</strong> {{ verse }}</p>
+<p><strong>Quote:</strong> {{ quote }}</p>
+
+<h3>Library Section</h3>
+<p>Coming soon: spiritual resources and community posts.</p>
+
+<a href="{{ url_for('logout') }}">Logout</a>
