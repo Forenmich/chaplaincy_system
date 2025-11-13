@@ -1,0 +1,34 @@
+# 🐍 Python cache & virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+
+# 🧱 Flask & local settings
+instance/
+*.db
+*.sqlite3
+*.sqlite
+*.log
+
+# 🧰 IDE and editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# 🧾 Environment variables
+.env
+*.env
+
+# 🪶 Backup and temporary files
+*.bak
+*.tmp
+
+# 📦 Node or frontend dependencies (in case you add them later)
+node_modules/
+dist/
+build/
